@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>拝見 v2 — 茶碗を、手のひらに</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/digital-haiken/assets/index-DC4XaYfq.js"></script>
+  <link rel="stylesheet" crossorigin href="/digital-haiken/assets/index-BCxH7ct2.css">
+</head>
+<body>
+  <div id="scene"></div>
+
+  <div id="mei">
+    <div class="name" id="meiName">黒樂</div>
+    <div class="kind" id="meiKind">くろらく ・ 黒楽茶碗</div>
+  </div>
+
+  <div id="shelf"></div>
+
+  <div id="dock">
+    <button id="haikenBtn">拝見をはじめる（カメラ）</button>
+    <div id="hint">ドラッグで全方向に回す ・ ホイールで寄る</div>
+  </div>
+
+  <div id="camWrap">
+    <video id="cam" autoplay playsinline muted></video>
+    <canvas id="overlay"></canvas>
+    <div id="camTag">手をかざしてください</div>
+  </div>
+
+  <div id="intro">
+    <h1>拝見</h1>
+    <p>てのひらに、ひとつの茶碗を</p>
+    <button id="enter">入　る</button>
+  </div>
+
+</body>
+</html>
